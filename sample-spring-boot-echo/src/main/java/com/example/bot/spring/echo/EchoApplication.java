@@ -29,7 +29,7 @@ import com.linecorp.bot.spring.boot.annotation.LineMessageHandler;
 @SpringBootApplication
 @LineMessageHandler
 public class EchoApplication {
-    // public static void main(String[] args) {
+    public static void main(String[] args) {
     //     SpringApplication.run(EchoApplication.class, args);
     // }
 
@@ -42,5 +42,5 @@ public class EchoApplication {
     // @EventMapping
     // public void handleDefaultMessageEvent(Event event) {
     //     System.out.println("event: " + event);
-    // }
+    }
 }
